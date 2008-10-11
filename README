@@ -1,0 +1,44 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2399
+
+== What's Yac
+ Yet Another Cheet (Powered By Ruby)
+== What's the script
+ the Syntax Highlight
+== How To Use The Yac
+
+=== To initialize repositories:
+    $ yac init
+=== To get a cheat sheet:
+    $ yac [cheatsheet]
+=== To edit a cheat sheet
+    $ yac edit [cheatsheet]
+=== To add a cheat sheet
+    $ yac add [cheatsheet]
+=== To rm a cheat sheet
+    $ yac rm [cheatsheet]
+=== Search according the sheets name
+    $ yac name [keyword]
+=== Search according the sheets content
+    $ yac content [keyword]
+=== Update repositories
+    $ yac update main  => Update main repository
+    $ yac update private => Update private repository
+    $ yac update => Update All
+=== Help
+    $ yac help
+=== Shell
+    $ yac shell main => Open the main repository's shell
+    $ yac shell => Open the private repository's shell
+=== Documents format
+   Use .ch as the suffix ,At the beginning of the row,plus N = for the N-class title
+   Use '#' at the beginning of a row to comment the line,You can use '\#' to get '#'
+   Use three @ wrap some words to highlight it,for example: @@\@ HI @@\@ (remove the \) will highlight HI
+=== Set the color of highlight
+   Default use .yacrc under home directory to set,, details, see the example file under the resources directory
+=== Others
+   Add @ before [cheatsheet]/[keyword] will only search the main depot
+   See also the source code to get more sexy ways
+
+== Author: Jinzhu Zhang : http://www.zhangjinzhu.com /  wosmvp (no-spam) gmail (no-spam) com
+
+
